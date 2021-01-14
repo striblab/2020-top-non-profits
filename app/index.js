@@ -8,12 +8,15 @@
 /* global $ */
 
 // Dependencies
+const path = require('path');
 import utils from './utils.js';
 import Content from '../templates/_index-content.svelte.html';
 import nonprofits from '../assets/data/nonprofits.json';
 
 // Mark page with note about development or staging
 utils.environmentNoting();
+
+// console.log(path.join(__dirname, '..', 'assets', 'ceos'))
 
 // Hacky way to get the share parts to show up
 let $share = $('.share-placeholder').size()
