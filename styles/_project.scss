@@ -96,6 +96,35 @@ a:hover {
   display: inline-block !important;
 }
 
+.related-stories {
+   margin-bottom: 2em;
+}
+
+.related-stories h3 {
+   margin: 0;
+}
+
+.related-stories h3 a span {
+    font-size: 0.9em;
+    padding-bottom: 1px;
+    border-bottom: solid 2px #EFEFEF;
+    line-height: 130%;
+}
+
+.related-stories h3 a {
+    text-decoration: none;
+    color: #444;
+    font-size: .8em;
+}
+
+.related-stories h3 a span:hover {
+  border-bottom: solid 2px #9A9A9A;
+}
+
+.article-footer {
+  border-top: 2px solid #e8e8e8 !important;
+}
+
 // Some responsive grid spacing (bottom)
 .row {
   // Bottom space
